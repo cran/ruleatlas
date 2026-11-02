@@ -1,0 +1,28 @@
+Package: ruleatlas
+Type: Package
+Title: Syntactic Sport and Game Rules
+Version: 0.0.1
+Authors@R: c(
+    person(given = "Dimitrios", family = "Geromichalos", role = "cre",
+           email = "riskdatascience@web.de"),
+    person("RiskDataScience GmbH", role = c("aut", "cph")))
+Description: Provides native validation of sport and game states, permitted moves
+    and observed events, deterministic rule consequences, and outcome calculation.
+    Includes 212 profiles with explicit variant scopes and a bounded declarative
+    interpreter for versioned user-defined rules. Does not simulate physical
+    movement, generate strategies, or estimate winning probabilities.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Depends: R (>= 4.1.0)
+Imports: jsonlite, stats, utils
+Suggests: testthat (>= 3.0.0)
+Config/testthat/edition: 3
+NeedsCompilation: no
+URL: https://github.com/rds0001/rulesatlas-r
+BugReports: https://github.com/rds0001/rulesatlas-r/issues
+Packaged: 2026-10-19 18:24:20 UTC; qwert123
+Author: Dimitrios Geromichalos [cre],
+  RiskDataScience GmbH [aut, cph]
+Maintainer: Dimitrios Geromichalos <riskdatascience@web.de>
+Repository: CRAN
+Date/Publication: 2026-11-02 12:10:02 UTC
